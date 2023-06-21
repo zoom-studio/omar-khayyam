@@ -1,6 +1,6 @@
 # Khayyam 🪐 🏛
 
-### A _zero-dependency_ _lightweight_ date conversion library for most popular calendars [**Jalali**, **Gregorian**, **Islamic**]
+A _zero-dependency_ _lightweight_ date conversion library for most popular calendars [**Jalali**, **Gregorian**, **Islamic**]
 
 ![omar-khayyam](docs/omar-khayyam.jpg)
 
@@ -8,7 +8,7 @@
 
 He was an Iranian polymath, known for his contributions to mathematics, **astronomy**, philosophy, and poetry.
 He was commissioned to build an observatory at Isfahan and reform the Persian calendar. Finally, the Jalali calendar was created by him as the most accurate calculated calendar.
-### [Read more about Omar Khayyam at Wikipedia](https://en.wikipedia.org/wiki/Omar_Khayyam)
+[Read more about Omar Khayyam at Wikipedia](https://en.wikipedia.org/wiki/Omar_Khayyam)
 
 ---
 
