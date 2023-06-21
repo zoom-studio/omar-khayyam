@@ -1,0 +1,9 @@
+/node_modules
+/npm-debug.log*
+/yarn-error.log
+/package-lock.json
+/docs-dist
+.DS_Store
+.env
+tsconfig.tsbuildinfo
+.rollup.cache
