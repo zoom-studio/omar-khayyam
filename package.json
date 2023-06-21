@@ -1,6 +1,6 @@
 {
   "name": "omar-khayyam",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "A zero-dependency lightweight date conversion library for most popular calendars [Jalali, Gregorian, Islamic]",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
