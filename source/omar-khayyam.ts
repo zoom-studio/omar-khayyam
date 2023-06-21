@@ -202,15 +202,15 @@ export class Khayyam {
   }
 
   toJalali = () => {
-    return new Khayyam('jalali', this._toJalali(this._date, this._calendar)).date
+    return new Khayyam('jalali', this._toJalali(this._date, this._calendar))
   }
 
   toGregorian = () => {
-    return new Khayyam('gregorian', this._toGregorian(this._date, this._calendar)).date
+    return new Khayyam('gregorian', this._toGregorian(this._date, this._calendar))
   }
 
   toIslamic = () => {
-    return new Khayyam('islamic', this._toIslamic(this._date, this._calendar)).date
+    return new Khayyam('islamic', this._toIslamic(this._date, this._calendar))
   }
 
   toJulianDay = () => {

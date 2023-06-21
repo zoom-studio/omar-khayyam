@@ -12,9 +12,9 @@ export declare class Khayyam {
     private readonly _toGregorian;
     private readonly _toJalali;
     private readonly _toIslamic;
-    toJalali: () => KhayyamNS.DateOutput;
-    toGregorian: () => KhayyamNS.DateOutput;
-    toIslamic: () => KhayyamNS.DateOutput;
+    toJalali: () => Khayyam;
+    toGregorian: () => Khayyam;
+    toIslamic: () => Khayyam;
     toJulianDay: () => number;
     get date(): KhayyamNS.DateOutput;
     get isLeapYear(): boolean;

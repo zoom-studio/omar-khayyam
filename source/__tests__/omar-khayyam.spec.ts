@@ -17,10 +17,10 @@ describe('Khayyam test cases', () => {
       const gregorianDate = new Khayyam('gregorian', gregorian)
 
       it('should convert [GREGORIAN] to [JALALI]', () => {
-        expect(testUtils.outputDateToString(gregorianDate.toJalali())).toBe('1402-3-29 __ 1')
+        expect(testUtils.outputDateToString(gregorianDate.toJalali().date)).toBe('1402-3-29 __ 1')
       })
       it('should convert [GREGORIAN] to [ISLAMIC]', () => {
-        expect(testUtils.outputDateToString(gregorianDate.toIslamic())).toBe('1444-11-30 __ 1')
+        expect(testUtils.outputDateToString(gregorianDate.toIslamic().date)).toBe('1444-11-30 __ 1')
       })
       it('should convert [GREGORIAN] to [JULIAN]', () => {
         expect(gregorianDate.toJulianDay()).toBe(julian)
@@ -31,10 +31,10 @@ describe('Khayyam test cases', () => {
       const jalaliDate = new Khayyam('jalali', jalali)
 
       it('should convert [JALALI] to [GREGORIAN]', () => {
-        expect(testUtils.outputDateToString(jalaliDate.toGregorian())).toBe('2023-6-19 __ 1')
+        expect(testUtils.outputDateToString(jalaliDate.toGregorian().date)).toBe('2023-6-19 __ 1')
       })
       it('should convert [JALALI] to [ISLAMIC]', () => {
-        expect(testUtils.outputDateToString(jalaliDate.toIslamic())).toBe('1444-11-30 __ 1')
+        expect(testUtils.outputDateToString(jalaliDate.toIslamic().date)).toBe('1444-11-30 __ 1')
       })
       it('should convert [JALALI] to [JULIAN]', () => {
         expect(jalaliDate.toJulianDay()).toBe(julian)
@@ -45,10 +45,10 @@ describe('Khayyam test cases', () => {
       const islamicDate = new Khayyam('islamic', islamic)
 
       it('should convert [ISLAMIC] to [JALALI]', () => {
-        expect(testUtils.outputDateToString(islamicDate.toJalali())).toBe('1402-3-29 __ 1')
+        expect(testUtils.outputDateToString(islamicDate.toJalali().date)).toBe('1402-3-29 __ 1')
       })
       it('should convert [ISLAMIC] to [GREGORIAN]', () => {
-        expect(testUtils.outputDateToString(islamicDate.toGregorian())).toBe('2023-6-19 __ 1')
+        expect(testUtils.outputDateToString(islamicDate.toGregorian().date)).toBe('2023-6-19 __ 1')
       })
       it('should convert [ISLAMIC] to [JULIAN]', () => {
         expect(islamicDate.toJulianDay()).toBe(julian)
