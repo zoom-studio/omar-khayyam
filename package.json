@@ -6,6 +6,7 @@
   "module": "dist/index.es.js",
   "license": "MIT",
   "private": false,
+  "homepage": "https://github.com/zoom-studio/omar-khayyam",
   "author": {
     "name": "ZoomCRM studio",
     "url": "https://github.com/zoom-studio"
