@@ -7,8 +7,16 @@
   "license": "MIT",
   "private": false,
   "homepage": "https://github.com/zoom-studio/omar-khayyam",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "url": "https://github.com/zoom-studio/zoom-react-components.git",
+    "type": "git"
+  },
   "author": {
-    "name": "ZoomCRM studio",
+    "name": "zoom-studio",
     "url": "https://github.com/zoom-studio"
   },
   "keywords": [
