@@ -42,11 +42,11 @@ const islamic = new Khayyam('islamic', '1444-11-30')
 
 const gregoryToJalali = gregorian.toJalali().date
 const islamicToJalali = islamic.toJalali().date
-// { year: 1444, month: 11, day: 30, weekDay: 1 }
+// { year: 1402, month: 3, day: 29, weekDay: 1 }
 
 const gregoryToIslamic = gregorian.toIslamic().date
 const jalaliToIslamic = jalali.toIslamic().date
-// { year: 1402, month: 3, day: 29, weekDay: 1 }
+// { year: 1444, month: 11, day: 30, weekDay: 1 }
 
 const jalaliToGregory = jalali.toGregorian().date
 const islamicToGregory = islamic.toGregorian().date
